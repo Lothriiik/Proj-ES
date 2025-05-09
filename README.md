@@ -1,7 +1,7 @@
 
 # 🚀 Proj-ES
 
-Projeto desenvolvido com **React (frontend)** e **FastAPI (backend)**. O objetivo é [insira aqui o propósito do sistema — ex: gerenciar laboratórios, controle de dispositivos, etc].
+Projeto desenvolvido com **React (frontend)** e **FastAPI (backend)**. 
 
 ---
 
@@ -88,24 +88,17 @@ npm run dev
 ## 🔁 Fluxo de Trabalho com Git
 
 1. Antes de tudo: `git pull`
-2. Crie uma nova branch:
-   ```bash
-   git checkout -b nome-da-sua-branch
-   ```
-3. Faça commits com mensagens claras:
+
+2. Faça commits com mensagens claras:
    ```
    feat: adiciona página de dispositivos
    fix: corrige bug na listagem de laboratórios
    ```
-4. Suba suas alterações:
+3. Suba suas alterações:
    ```bash
-   git push origin nome-da-sua-branch
+   git push origin main
+
    ```
-5. Abra um **Pull Request** no GitHub
 
 ---
 
-## 📬 Contato
-
-Projeto mantido por [@Lothriiik](https://github.com/Lothriiik).  
-Dúvidas ou sugestões? Entre em contato!
