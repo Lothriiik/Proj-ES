@@ -46,8 +46,6 @@ pip install -r requirements.txt
 
 ### Frontend (React)
 
-# Passo a Passo para Instalar o Node.js
-
 Siga os passos abaixo para instalar o Node.js no seu sistema.
 
 ## 1. Baixar o Instalador do Node.js
