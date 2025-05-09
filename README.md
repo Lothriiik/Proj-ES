@@ -31,15 +31,6 @@ git clone https://github.com/Lothriiik/Proj-ES.git
 cd Proj-ES
 ```
 
-> ✅ **Importante**: Antes de começar a trabalhar, execute sempre:
->
-> ```bash
-> git pull
-> ```
-> Assim você garante que está com as últimas atualizações do projeto.
-
----
-
 ## 📦 Instalando dependências
 
 ### Backend (FastAPI)
@@ -86,8 +77,9 @@ npm run dev
 ---
 
 ## 🔁 Fluxo de Trabalho com Git
-
-1. Antes de tudo: `git pull`
+> ✅ **Importante**: Antes de começar a trabalhar, execute sempre:
+1.  `git pull`
+> Assim você garante que está com as últimas atualizações do projeto.
 
 2. Faça commits com mensagens claras:
    ```
