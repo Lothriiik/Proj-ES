@@ -55,6 +55,20 @@ npm install
 
 ## ▶️ Executando o Projeto
 
+## 🌐 Rotas Principais (Frontend)
+
+Abaixo estão as principais rotas disponíveis na aplicação React:
+
+| Caminho                    | Componente             | Descrição                                         |
+|---------------------------|------------------------|---------------------------------------------------|
+| `/`                       | `Login`                | Página inicial de login                           |
+| `/login`                  | `Login`                | Página de login                                   |
+| `/producao-iniciar`       | `IniciarProducao`      | Página para iniciar uma produção                  |
+| `/materiaprima-estoque`   | `EstoqueMateriaPrima`  | Visualização do estoque de matéria-prima          |
+| `/materiaprima-cadastro`  | `CadastroMateriaPrima` | Cadastro de nova matéria-prima                    |
+| `*`                       | `Login`                | Qualquer rota não encontrada redireciona para login |
+
+
 ### Backend
 
 ```bash
