@@ -4,6 +4,7 @@ import CadastroMateriaPrima from '../pages/CadastroMateriaPrima';
 import EstoqueMateriaPrima from '../pages/EstoqueMateriaPrima';
 import IniciarProducao from '../pages/IniciarProducao';
 import LayoutComponent from '../layout/LayoutComponent';
+import Teste from '../pages/Teste';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: '/materiaprima-cadastro', element: <CadastroMateriaPrima /> },
       { path: '/materiaprima-estoque', element: <EstoqueMateriaPrima /> },
       { path: '/producao-iniciar', element: <IniciarProducao /> },
+      { path: '/teste', element: <Teste /> },
     ],
   },
   {

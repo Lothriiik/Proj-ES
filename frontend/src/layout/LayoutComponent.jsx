@@ -26,7 +26,7 @@ const menuStyle = {
 };
 
 const menuItemStyle = {
-  color: COLORS.white,
+  color: COLORS.secondary,
   fontSize: '16px',
 };
 
@@ -52,7 +52,7 @@ export default function LayoutComponent() {
       <Header style={headerStyle}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ color: COLORS.white, fontSize: '20px', fontWeight: 'bold' }}>
-            Sistema de Produção
+            ReTock
           </div>
           <Menu
             mode="horizontal"

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-export default function EstoqueMateriaPrima() {
+export default function Login() {
 
   const title = 'Bem-vindo à ';
 
