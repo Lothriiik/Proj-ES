@@ -1,0 +1,29 @@
+
+.ant-menu-horizontal {
+  border-bottom: none !important;
+}
+
+.ant-menu-submenu-title {
+  color: white !important;
+}
+
+.ant-menu-dark .ant-menu-submenu-title:hover {
+  color: white !important;
+}
+
+.ant-menu-dark .ant-menu-submenu-selected .ant-menu-submenu-title {
+  color: white !important;
+}
+
+.ant-menu-dark .ant-menu-item {
+  color: white !important;
+}
+
+
+.custom-dropdown .ant-menu-item {
+  color: white !important;
+}
+
+.custom-dropdown .ant-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
