@@ -1,10 +1,13 @@
-import React from 'react';
-import { RouterProvider } from 'react-router-dom';
-import routes from './routes';
+// src/App.jsx
+import { Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <RouterProvider router={routes} />
+    <Routes>
+      <Route path="/" element={<h1>Home</h1>} />
+      <Route path="/login" element={<Login />} />
+    </Routes>
   );
 }
 
