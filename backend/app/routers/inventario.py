@@ -1,11 +1,11 @@
 from fastapi import APIRouter, Depends, HTTPException, Body
 from sqlalchemy.orm import Session
-from app.db.database import get_db
-from app import models
-from app.schemas.inventario import InventoryOut, InventoryUpdate, InventoryCreate
+from db.database import get_db
+import models
+from schemas.inventario import InventoryOut, InventoryUpdate, InventoryCreate
 from datetime import datetime
 from typing import List
-from app.core.auth import get_current_operador_user, get_current_admin_user
+from core.auth import get_current_operador_user, get_current_admin_user
 
 router = APIRouter()
 

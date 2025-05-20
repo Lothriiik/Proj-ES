@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
-from app.enum import RoleEnum 
+from enums_definitions import RoleEnum 
 
 class UserBase(BaseModel):
     username: str

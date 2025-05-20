@@ -14,23 +14,23 @@ body {
   align-items: center;
 }
 
-.login-container {
+.registrar-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.login-card {
+.registrar-card {
   background-color: #FAFAFA;
-  padding: 50px;
+  padding: 40px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
 }
 
-.login-title {
+.registrar-title {
   text-align: center;
   color: #8E2D45;
   margin-bottom: 5px;
@@ -41,10 +41,8 @@ body {
   margin-bottom: 20px;
 }
 
-.form-group label {
-  display: block;
-  margin-bottom: 20px;
-  color: #011d3b;
+.ant-form-item-label > label {
+  color: #011d3b !important;
   font-weight: 600;
 }
 
@@ -63,7 +61,7 @@ body {
 }
 
 .login-button {
-  width: 110%;
+  height: 40px;
   padding: 10px;
   background-color: #8E2D45;
   color: white;
@@ -77,4 +75,31 @@ body {
 
 .login-button:hover {
   background-color: #6f1f34;
+}
+
+
+
+.ant-input {
+  height: 41px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border 0.3s, box-shadow 0.3s;
+  color: #011d3b !important;
+  font-weight: 600;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.ant-input-password .ant-input {
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.ant-form-item-has-error .ant-input {
+  border-color: #ff4d4f;
 }

@@ -1,8 +1,8 @@
 # backend/app/main.py
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .db.database import Base, engine
-from .routers import usuario, materiais, inventario, producao, sapatos, auth
+from db.database import Base, engine
+from routers import usuario, materiais, inventario, producao, sapatos, auth
 
 Base.metadata.create_all(bind=engine)
 

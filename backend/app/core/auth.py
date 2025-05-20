@@ -5,10 +5,10 @@ from passlib.context import CryptContext
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
-from app.db.database import get_db
-from app import models
-from app.core.config import SECRET_KEY, ALGORITHM
-from app.enum import RoleEnum
+from db.database import get_db
+import models
+from core.config import SECRET_KEY, ALGORITHM
+from enums_definitions import RoleEnum
 
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

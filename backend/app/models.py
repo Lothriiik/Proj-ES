@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, Boolean, Float, ForeignKey, DateTime, Enum as SqlEnum
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from app.db.database import Base
-from app.enum import MedidaEnum, RoleEnum, StatusEnum
+from db.database import Base
+from enums_definitions import MedidaEnum, RoleEnum, StatusEnum
 
 class User(Base):
     __tablename__ = "users"

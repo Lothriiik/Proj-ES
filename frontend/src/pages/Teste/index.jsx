@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ping } from '../../api/teste';
+import {ping} from '../../api/main'
 
 export default function Teste() {
   const [loading, setLoading] = useState(false); 

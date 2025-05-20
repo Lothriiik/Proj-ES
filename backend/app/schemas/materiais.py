@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
-from app.enum import MedidaEnum
+from enums_definitions import MedidaEnum
 from datetime import datetime
 
 class MaterialBase(BaseModel):

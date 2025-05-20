@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import Optional, List
 from .materiais import MaterialOut
 from .sapatos import SapatoOut
-from app.enum import StatusEnum
+from enums_definitions import StatusEnum
 from .sapatos import SapatoOut
 from .materiais import MaterialUsado
 

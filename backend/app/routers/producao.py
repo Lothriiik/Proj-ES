@@ -1,11 +1,11 @@
 from fastapi import APIRouter, Depends, HTTPException, Body
 from sqlalchemy.orm import Session, joinedload
-from app.db.database import get_db
-from app import models
-from app.enum import StatusEnum
-from app.schemas.producao import ProducaoCreate, ProducaoFinalizar, ProducaoOut
+from db.database import get_db
+import models
+from enums_definitions import StatusEnum
+from schemas.producao import ProducaoCreate, ProducaoFinalizar, ProducaoOut
 from typing import List
-from app.core.auth import get_current_operador_user, get_current_admin_user
+from core.auth import get_current_operador_user, get_current_admin_user
 
 router = APIRouter()
 
