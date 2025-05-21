@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/',
-    element: <PrivateRoute />, // <- rota protegida
+    element: <PrivateRoute />,
     children: [
       {
         element: <LayoutComponent />,

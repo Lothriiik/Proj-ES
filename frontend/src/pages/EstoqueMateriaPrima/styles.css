@@ -34,14 +34,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Seção de conteúdo com sombra */
-.content-section.expanded {
-  background-color: var(--branco);
-  border-radius: 12px;
-  padding: 135px 200px;
-  margin: 80px auto;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
-}
+
 
 /* Cabeçalho da seção */
 .section-header h2 {

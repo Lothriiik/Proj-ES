@@ -21,15 +21,8 @@ const EstoqueMateriasPrimas = () => {
   };
 
   return (
-    <div className="app-container">
-      {/* Top bar agora é totalmente independente */}
-      <header className="top-bar">
-        <div className="logo">ReTock</div>
-      </header>
 
-      {/* Conteúdo principal separado */}
-      <main className="main-content">
-        <div className="content-section expanded">
+        <div className="expanded">
           <div className="section-header">
             <h2>Estoque de Matérias-Primas</h2>
           </div>
@@ -75,8 +68,8 @@ const EstoqueMateriasPrimas = () => {
             </table>
           </div>
         </div>
-      </main>
-    </div>
+
+
   );
 };
 

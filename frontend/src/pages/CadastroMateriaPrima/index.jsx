@@ -11,8 +11,7 @@ import {
 } from 'antd';
 import { SaveOutlined } from '@ant-design/icons';
 import { COLORS, buttonStyle } from '../../styles/theme';
-import { cadastrarmateria } from '../../services/materiais'; // 👈 importe aqui
-
+import {cadastrarmaterias} from '../../api/main'
 const { Title } = Typography;
 const { Option } = Select;
 const { TextArea } = Input;
