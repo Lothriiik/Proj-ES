@@ -1,0 +1,123 @@
+:root {
+  --roxo-escuro: #2d0a49;
+  --vinho: #802d3f;
+  --branco: #ffffff;
+  --cinza-borda: #dddddd;
+  --cinza-claro: #f8f8f8;
+  --cinza-escuro: #333333;
+}
+
+/* Corpo da página */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cinza-claro);
+  color: var(--cinza-escuro);
+}
+
+/* Container central */
+.container {
+  max-width: 1200px;
+  margin: 0;
+  padding: 0 800px;
+}
+
+/* Barra superior */
+.top-bar {
+  background: linear-gradient(to right, var(--roxo-escuro), #3a2b5a);
+  padding: 10px;
+  margin: 0;
+  color: var(--branco);
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Seção de conteúdo com sombra */
+.content-section.expanded {
+  background-color: var(--branco);
+  border-radius: 12px;
+  padding: 135px 200px;
+  margin: 80px auto;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho da seção */
+.section-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: var(--vinho);
+  text-align: left;
+}
+
+/* Filtros de busca */
+.search-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid var(--cinza-borda);
+  border-radius: 8px;
+  background-color: var(--branco);
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.search-input:focus {
+  border-color: var(--vinho);
+  outline: none;
+  box-shadow: 0 0 6px rgba(128, 45, 63, 0.3);
+}
+
+/* Tabela */
+.table-container {
+  overflow-x: auto;
+}
+
+.materias-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0 10px;
+  margin-top: 10px;
+}
+
+.materias-table thead {
+  background-color: var(--vinho);
+  color: var(--branco);
+}
+
+.materias-table thead th {
+  padding: 18px 20px;
+  text-align: left;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.materias-table tbody tr {
+  background-color: var(--branco);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+}
+
+.materias-table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.materias-table td {
+  padding: 18px 20px;
+  text-align: left;
+}
+
+/* Destaque para estoque baixo */
+.estoque-baixo td {
+  background-color: #d9534f;
+  color: var(--branco);
+  font-weight: bold;
+}
