@@ -18,7 +18,7 @@ export default function Login() {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h2 className="login-title">ReTock - Login</h2>
+        <h2 className="login-title">UrbanSole - Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="email">E-mail</label>

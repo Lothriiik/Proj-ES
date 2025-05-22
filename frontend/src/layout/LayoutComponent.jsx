@@ -75,7 +75,7 @@ export default function LayoutComponent() {
       <Header style={headerStyle}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ color: COLORS.white, fontSize: '20px', fontWeight: 'bold' }}>
-            ReTock
+            UrbanSole
           </div>
           <Menu
             mode="horizontal"
